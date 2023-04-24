@@ -137,7 +137,7 @@ iframe, embed, object {max-width: 100%;}
 
 /* Typography */
 
-h1, h2, h3, h4, h5, h6 {color: #1d2124;margin: 20px 0 10px 0;font-style: normal;font-family: 'Raleway', sans-serif;}
+h1, h2, h3, h4, h5, h6 {color: #e8eaec;margin: 20px 0 10px 0;font-style: normal;font-family: 'Raleway', sans-serif;}
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {line-height: 1.2em;}
 h1 { font-size: 56px;}
 h2 { font-size: 36px;}
@@ -145,7 +145,7 @@ h3 { font-size: 24px;}
 h4 { font-size: 18px;}
 h5 { font-size: 16px;}
 h6 { font-size: 12px;}
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #1d2124;}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #e8eaec;}
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover { color: #1ca7ec;}
 h1 a.dark, h2 a.dark, h3 a.dark, h4 a.dark, h5 a.dark, h6 a.dark { color: #fff;}
 h1 a.dark:hover, h2 a.dark:hover, h3 a.dark:hover, h4 a.dark:hover, h5 a.dark:hover, h6 a.dark:hover { color: #1ca7ec;}
