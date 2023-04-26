@@ -124,6 +124,7 @@ a, a:hover, a *{-o-transition: .3s;-ms-transition: .3s;-moz-transition: .3s;-web
 
 /* All */
 
+
 * {margin: 0;padding: 0;min-height:0;min-width:0;}
 *, :after, :before {box-sizing: border-box;}
 
@@ -242,7 +243,7 @@ hr.center_line{width:60px;}
 }
 
 .section-title{margin-bottom: 30px;}
-.section-title h1{font-size: 50px;font-weight: 800;margin-top: 10px;letter-spacing: -1px;}
+.section-title h1{font-size: 70px;font-weight: 800;margin-top: 10px;letter-spacing: -1px; color: #310133;}
 .section-title h2{font-size: 25px;line-height: 0.75;margin: 0;}
 .section-title .md-icon li:first-child{margin: 0;}
 .section-title .md-icon li{margin: 0 4px;}
@@ -303,10 +304,10 @@ nav.navbar.bootsnav ul.nav > li > a.nav-btn-default {padding: 10px 15px;margin-t
 .menu-logo-outside {max-width: 180px;}
 .menu-btn {position: fixed;right: 8%;z-index: 999;top: 2%;}
 .menu-btn a{background-color: #fff;width: 60px;height: 60px;display: block;text-align: center;line-height: 57px;box-shadow: 5px 5px 15px 0 rgba(31, 31, 31, 0.07);font-size: 26px;}
-.btn-open:before {color: #333;content: "\f130";font-family: "Ionicons";-webkit-transition: all .2s linear 0s;-moz-transition: all .2s linear 0s;-o-transition: all .2s linear 0s;transition-property: all .2s linear 0s;}
-.btn-open:hover:before {color: #1ca7ec;}
-.btn-close:before {color: #333;content: "\f2d7";font-family: "Ionicons";-webkit-transition: all .2s linear 0s;-moz-transition: all .2s linear 0s;-o-transition: all .2s linear 0s;transition-property: all .2s linear 0s;}
-.btn-close:hover:before {color: #1ca7ec;}
+.btn-open:before {color: #310133;content: "\f130";font-family: "Ionicons";-webkit-transition: all .2s linear 0s;-moz-transition: all .2s linear 0s;-o-transition: all .2s linear 0s;transition-property: all .2s linear 0s;}
+.btn-open:hover:before {color: #590e77;}
+.btn-close:before {color: #310133;content: "\f2d7";font-family: "Ionicons";-webkit-transition: all .2s linear 0s;-moz-transition: all .2s linear 0s;-o-transition: all .2s linear 0s;transition-property: all .2s linear 0s;}
+.btn-close:hover:before {color: #590e77;}
 
 /* Menu Overlay */
 
@@ -2340,3 +2341,40 @@ background: -ms-linear-gradient(left, rgba(28,167,236,1) 0%, rgba(75,0,224,1) 10
     letter-spacing: 0.15em;
     font-weight: 800;
 }
+
+
+.animated {
+  animation-duration: 6.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes zoomOut {
+  0% {
+      transform: scale(1);
+      opacity: 1;
+  }
+
+  100% {
+      transform: scale(0.5);
+      opacity: 100;
+  }
+}
+
+.zoomOut {
+  animation-name: zoomOut;
+}
+
+#slide-3238-layer-12 {
+  animation: shrink-spin 2.5s 2.5s forwards;
+}
+
+@keyframes shrink-spin {
+  0% {
+    transform: scale(0.5) rotate(0deg);
+  }
+  
+  100% {
+    transform: scale(0.5) rotate(360deg);
+  }
+}
+
