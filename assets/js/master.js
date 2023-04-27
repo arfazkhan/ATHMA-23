@@ -5,6 +5,8 @@
 
 	jQuery(document).ready(function ($) {
 
+		
+
 		/* ===== jQuery Varibles ===== */
 
 			mainSlider();
