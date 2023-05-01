@@ -2894,3 +2894,47 @@ nav.navbar {
 .modal .modal-dialog .modal-content .modal-body img {
   border-radius: 10px;
 }
+
+#timer { 
+  align-items: center;
+  font-family: "Helvetica Neue", "Open Sans", helvetica, arial, sans-serif;   
+  font-size: 3em;
+  font-weight: 100;
+  color: white;
+  text-shadow: 0 0 20px #ff2079;
+}
+
+#timer > div {
+  display: inline-block;
+  min-width: 90px;
+}
+
+#timer > div > span {
+  color:#fff;
+  display: block;
+  font-size: .35em;
+  font-weight: 400;
+}
+@media (max-width: 768px) {
+  .rev-scroll-btn.dark span {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #slide-3238-layer-15 {
+   display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #timer {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  #timer > div {
+    font-size: 18px;
+    line-height: 12px;
+  }
+}
