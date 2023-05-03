@@ -467,7 +467,7 @@
 
     // Toggle the visibility of the image holders when the button is clicked
     $('#see-more-btn').click(function() {
-      $('#image-holders .col-md-3:gt(3)').hide();
+      $('#image-holders .col-md-3:gt(3)').toggle();
       $(this).text(function(i, text){
         return text === "See More" ? "See Less" : "See More";
       })
